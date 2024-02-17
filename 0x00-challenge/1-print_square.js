@@ -2,11 +2,11 @@
 /*
     Print a square with the character #
     The size of the square must be the first argument
-    of the program
+    of the program.
 */
 
 
-if (process.arg.length <= 2) {
+if (process.argv.length <= 2) {
     process.stderr.write("Missing argument\n");
     process.stderr.write("Usage: ./1-print_square.js <size>\n");
     process.stderr.write("Example: ./1-print_square.js 8\n");
